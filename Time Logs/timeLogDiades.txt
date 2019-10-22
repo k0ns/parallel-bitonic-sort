@@ -1,0 +1,179 @@
+%SERIAL TIMES
+
+%Imperative Average times for q = 16 - 24
+sImp = [0.025766 0.056821 0.124288 0.272170 0.596051 1.484686 3.564465 7.101010 15.453522 ];
+
+%Recursive Average times for q = 16 - 24
+sRec = [0.027105 0.059150 0.128545 0.278172 0.599830 1.291707 2.777352 5.958605 12.747239 ];
+
+
+
+
+
+
+%QSORT TIMES
+
+%qsort Average times for q = 16 - 24
+qsort = [0.008559 0.018060 0.037961 0.079926 0.168658 0.356534 0.749036 1.616059 3.303006 ];
+
+
+
+
+
+
+
+%PTHREADS TIMES
+
+%Recursive Average times for q = 16 - 24 with 2^1 threads
+pThreads1 = [0.008658 0.016575 0.034452 0.071528 0.167608 0.320025 0.668971 1.358804 2.767603 ];
+
+%Recursive Average times for q = 16 - 24 with 2^2 threads
+pThreads2 = [0.008274 0.016256 0.033689 0.070162 0.157470 0.309941 0.630756 1.300865 2.703706 ];
+
+%Recursive Average times for q = 16 - 24 with 2^3 threads
+pThreads3 = [0.008398 0.014210 0.028360 0.057854 0.126612 0.291877 0.562119 1.089452 2.176631 ];
+
+%Recursive Average times for q = 16 - 24 with 2^4 threads
+pThreads4 = [0.010640 0.017519 0.032961 0.064021 0.127243 0.257277 0.549351 1.068737 2.166471 ];
+
+%Recursive Average times for q = 16 - 24 with 2^5 threads
+pThreads5 = [0.019786 0.025561 0.039207 0.069355 0.130991 0.258188 0.513808 1.016570 2.036013 ];
+
+%Recursive Average times for q = 16 - 24 with 2^6 threads
+pThreads6 = [0.036719 0.042377 0.055558 0.084944 0.146211 0.275083 0.517690 1.025931 2.085824 ];
+
+%Recursive Average times for q = 16 - 24 with 2^7 threads
+pThreads7 = [0.081741 0.080322 0.093423 0.120668 0.182090 0.310309 0.559386 1.082772 2.137623 ];
+
+%Recursive Average times for q = 16 - 24 with 2^8 threads
+pThreads8 = [0.136125 0.144502 0.157916 0.188020 0.248011 0.378412 0.631268 1.158060 2.276527 ];
+
+
+
+
+
+
+
+%OPENMP TIMES
+
+%Imperative Average times for q = 16 - 24 with 2^1 threads
+ompImp1 = [0.016093 0.034649 0.074905 0.165028 0.412042 0.935506 1.912420 4.056307 8.711062 ];
+
+%Recursive Average times for q = 16 - 24 with 2^1 threads
+ompRec1 = [0.006819 0.014231 0.029660 0.061734 0.127514 0.261156 0.542951 1.137370 2.708123 ];
+
+
+%Imperative Average times for q = 16 - 24 with 2^2 threads
+ompImp2 = [0.011427 0.030230 0.064889 0.145110 0.372490 0.760350 1.495220 2.517620 4.962065 ];
+
+%Recursive Average times for q = 16 - 24 with 2^2 threads
+ompRec2 = [0.006614 0.013767 0.028802 0.060153 0.125682 0.262380 0.549540 1.158928 2.612977 ];
+
+
+%Imperative Average times for q = 16 - 24 with 2^3 threads
+ompImp3 = [0.011651 0.022978 0.047825 0.101616 0.221142 0.483826 0.966305 1.724504 3.812855 ];
+
+%Recursive Average times for q = 16 - 24 with 2^3 threads
+ompRec3 = [0.007544 0.014231 0.030163 0.061796 0.127119 0.269945 0.599782 1.143413 2.140778 ];
+
+
+%Imperative Average times for q = 16 - 24 with 2^4 threads
+ompImp4 = [0.026432 0.043216 0.079036 0.128547 0.249130 0.797942 1.163036 2.182219 4.173402 ];
+
+%Recursive Average times for q = 16 - 24 with 2^4 threads
+ompRec4 = [0.006932 0.014310 0.029813 0.062030 0.128142 0.263665 0.546645 1.164749 1.995014 ];
+
+
+%Imperative Average times for q = 16 - 24 with 2^5 threads
+ompImp5 = [0.038056 0.056205 0.085508 0.146764 0.311088 0.636674 1.168283 1.969548 4.289242 ];
+
+%Recursive Average times for q = 16 - 24 with 2^5 threads
+ompRec5 = [0.007054 0.014449 0.029737 0.062002 0.128036 0.264822 0.545963 1.150202 2.033411 ];
+
+
+%Imperative Average times for q = 16 - 24 with 2^6 threads
+ompImp6 = [0.058594 0.083036 0.119443 0.190229 0.328625 0.701565 1.277180 2.274058 4.518610 ];
+
+%Recursive Average times for q = 16 - 24 with 2^6 threads
+ompRec6 = [0.007439 0.015222 0.029912 0.062734 0.128758 0.264750 0.545453 1.197595 2.024713 ];
+
+
+%Imperative Average times for q = 16 - 24 with 2^7 threads
+ompImp7 = [0.114060 0.147957 0.207450 0.321839 0.463737 0.751853 1.271297 2.289180 4.607645 ];
+
+%Recursive Average times for q = 16 - 24 with 2^7 threads
+ompRec7 = [0.007318 0.014586 0.029848 0.062227 0.129602 0.264297 0.548130 1.155170 2.026712 ];
+
+
+%Imperative Average times for q = 16 - 24 with 2^8 threads
+ompImp8 = [0.229062 0.276742 0.336875 0.426842 0.572283 0.859720 1.400767 2.564632 4.727032 ];
+
+%Recursive Average times for q = 16 - 24 with 2^8 threads
+ompRec8 = [0.007935 0.015276 0.030506 0.063092 0.128175 0.284656 0.567271 1.196544 2.341652 ];
+
+
+
+
+
+
+
+%CILKPLUS TIMES
+
+%Imperative Average times for q = 16 - 24 with 2^1 workers
+cilkImp1 = [0.016787 0.035342 0.075560 0.163085 0.351768 0.762169 1.831960 4.031856 8.765023 ];
+
+%Recursive Average times for q = 16 - 24 with 2^1 workers
+cilkRec1 = [0.006806 0.014182 0.029558 0.061551 0.126997 0.261954 0.541765 1.132902 2.690980 ];
+
+
+%Imperative Average times for q = 16 - 24 with 2^2 workers
+cilkImp2 = [0.015898 0.032920 0.068124 0.142456 0.303863 0.647029 1.326728 2.426789 5.049343 ];
+
+%Recursive Average times for q = 16 - 24 with 2^2 workers
+cilkRec2 = [0.006829 0.014177 0.029525 0.061493 0.127325 0.262140 0.541274 1.140279 1.980959 ];
+
+
+%Imperative Average times for q = 16 - 24 with 2^3 workers
+cilkImp3 = [0.013866 0.023327 0.045938 0.095445 0.198507 0.416565 0.863417 1.725936 3.712600 ];
+
+%Recursive Average times for q = 16 - 24 with 2^3 workers
+cilkRec3 = [0.006602 0.013835 0.028823 0.059896 0.124617 0.260100 0.547206 1.143069 2.004504 ];
+
+
+%Imperative Average times for q = 16 - 24 with 2^4 workers
+cilkImp4 = [0.014572 0.025867 0.048727 0.100348 0.205869 0.437473 1.014724 2.335121 5.593900 ];
+
+%Recursive Average times for q = 16 - 24 with 2^4 workers
+cilkRec4 = [0.008844 0.013893 0.031001 0.067606 0.134845 0.260647 0.968861 1.854978 4.078491 ];
+
+
+%Imperative Average times for q = 16 - 24 with 2^5 workers
+cilkImp5 = [0.018558 0.029162 0.053723 0.105281 0.274255 0.861265 1.816463 4.491318 10.787659 ];
+
+%Recursive Average times for q = 16 - 24 with 2^5 workers
+cilkRec5 = [0.006810 0.032366 0.078424 0.170021 0.454136 1.060488 1.987249 3.763673 7.753956 ];
+
+
+%Imperative Average times for q = 16 - 24 with 2^6 workers
+cilkImp6 = [0.033358 0.053834 0.154341 0.191093 0.645330 1.777155 3.674723 9.623770 14.598405 ];
+
+%Recursive Average times for q = 16 - 24 with 2^6 workers
+cilkRec6 = [0.075098 0.148250 0.175912 0.483192 0.985535 1.948187 4.262529 8.614194 16.165883 ];
+
+
+%Imperative Average times for q = 16 - 24 with 2^7 workers
+cilkImp7 = [0.400626 0.561109 0.748934 0.721505 1.905413 3.660326 7.697943 18.885029 27.431108 ];
+
+%Recursive Average times for q = 16 - 24 with 2^7 workers
+cilkRec7 = [0.143775 0.181038 0.492960 0.843607 1.783392 3.878663 8.665678 17.347546 31.137754 ];
+
+Failed to set more than 128 workers
+Exit...
+
+
+
+
+
+
+
+
